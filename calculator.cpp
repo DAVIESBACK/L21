@@ -92,7 +92,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         return 0;
     }
 
-    HWND hwnd = CreateWindowEx(0, "WindowClass", "Rainbow Calculator", WS_VISIBLE | WS_SYSMENU,
+    HWND hwnd = CreateWindowEx(0, "WindowClass", "My Calculator", WS_VISIBLE | WS_SYSMENU,
         CW_USEDEFAULT, CW_USEDEFAULT, 250, 200, NULL, NULL, hInstance, NULL);
 
     if (!hwnd) {
